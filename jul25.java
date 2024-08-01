@@ -37,7 +37,43 @@ package Training;
 //         System.out.println("the addition of " +a+ " and " +b+ " is " +c);
 //     }
 // }
+import java.util.Scanner;
+public class jul25 {
 
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int r;
+        int c;
+        int end = (n+2)/2;
+        for(r=1;r<=n+1;r++){
+            System.out.print("");
+            for(c=1;c<=end;c++){
+                if(r==1){
+                    if(c==1 || c== end){
+                        System.out.print("");
+                    }
+                    else{
+                        System.out.print("*");
+                    }
+                }
+                else if(r==end){
+                    System.out.print("*");
+                }
+                else{
+                    if(c==1 || c==end){
+                        System.out.print("*");
+                    }
+                    else{
+                        System.out.print("");
+                    }
+                }
 
+    
+                
+            }
+        }
+    }
+}
 
 
