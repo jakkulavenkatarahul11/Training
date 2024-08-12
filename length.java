@@ -10,6 +10,6 @@ public class length {
             num = num/10;
             count++;
         }
-        System.out.println(count + " Integers are presnt in the given integer value");
+        System.out.println(count + " Integers are present in the given integer value");
     }
 }
