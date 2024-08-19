@@ -7,7 +7,7 @@ public class mirrorstring {
         for(int i =0;i<n;i++){
             String a = sc.next();
             String b = a + a;
-            System.out.println(b);
+            System.out.print(b);
         }
 
     }
